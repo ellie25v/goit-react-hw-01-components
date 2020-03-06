@@ -1,0 +1,31 @@
+.item{
+    display: flex;
+    align-items: center;
+    height: 60px;
+    margin-top: 10px;
+    box-shadow: 1px 1px 2px rgb(107, 102, 102);
+}
+
+.statusIsOnline, .statusIsOffline{
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    margin: 0 10px;
+}
+.statusIsOnline{
+    background-color: rgb(32, 216, 15);
+}
+
+.statusIsOffline{
+    background-color: rgb(218, 27, 27);
+}
+
+.avatar{
+    height: 48px;
+}
+
+.name{
+    font-weight: 500;
+    font-size: 20px;
+    padding-left: 10px;
+}
